@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Scanner;
 
-class ChechAnagram
+class CheckAnagram
 {
     public static void main(String[]args)
     {
