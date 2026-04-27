@@ -7,7 +7,6 @@ class LongestSubstringWithoutRepeating
     {
         Scanner sc = new Scanner(System.in);
         HashSet<Character> set = new HashSet<>();
-        System.out.print("Enter the word: ");
         String s = sc.nextLine();
         int left = 0, right = 0, max = 0;
         while(right < s.length())
